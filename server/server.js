@@ -11,7 +11,7 @@ app.use(myexpress.json())
 app.use(routes, userRoutes)
 
 mongoose
-    .connect('mongodb+srv://admin:nimda@cluster0.h7ye9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+    .connect('ADD MONGO URL', {
         useUnifiedTopology: true,
         useNewUrlParser: true,
     })
